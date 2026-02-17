@@ -10,6 +10,8 @@ The objective is to maintain discipline during enumeration, access development, 
 
 ## Engagement Lifecycle
 
+Recon &rarr; Enumeration &rarr; Access &rarr; PrivEsc &rarr; Post-Exploitation &rarr; Reporting
+
 ### 1. Surface Mapping
 Identify exposed services and define the attack surface.
 
