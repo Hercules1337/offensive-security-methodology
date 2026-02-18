@@ -1,28 +1,13 @@
 # Offensive Security Methodology
 
-This repository documents my structured approach to penetration testing engagements.
+This directory contains the comprehensive methodology developed for Offensive Security practices.
 
-It is designed as a repeatable decision framework rather than a collection of tools or exploits.
+# Directory Structure
 
-The objective is to maintain discipline during enumeration, access development, privilege escalation, and reporting.
+- **01-Planning**: This section covers the planning phase of engagements.
+- **02-Enumeration**: Techniques and tools used for reconnaissance.
+- **03-Exploitation**: Strategies and methodologies for exploiting vulnerabilities.
+- **04-Post-Exploitation**: Tactics used after gaining access to a system.
+- **05-Reporting**: Best practices for documenting findings and reporting to stakeholders.
 
----
-
-## Engagement Lifecycle
-
-Recon &rarr; Enumeration &rarr; Access &rarr; PrivEsc &rarr; Post-Exploitation &rarr; Reporting
-
-### 1. Surface Mapping
-Identify exposed services and define the attack surface.
-
-### 2. Access Development
-Convert misconfigurations or vulnerabilities into controlled access.
-
-### 3. Privilege Expansion
-Escalate privileges through structured local enumeration and trust abuse.
-
-### 4. Post-Exploitation
-Assess impact, credential exposure, and lateral movement opportunities.
-
-### 5. Reporting
-Translate technical findings into actionable remediation.
+Please explore the respective folders for detailed methodologies.
