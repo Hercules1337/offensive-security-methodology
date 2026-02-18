@@ -41,6 +41,12 @@ Documented operational boundaries aligned with authorization.
 Create an initial target inventory:
 
 - IP ranges
+- Servers
+- Identify Production environment location (public or private)
+- Identify Testing evironment location
+- Installed OS
+- Host primary purpose
+- Host primary software
 - Web applications
 - Domain controllers
 - VPN endpoints
