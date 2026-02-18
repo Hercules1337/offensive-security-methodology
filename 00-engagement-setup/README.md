@@ -72,7 +72,7 @@ Consistent documentation workflow for the engagement.
 
 ---
 
-## 5. Time Allocation Strategy (OSCP-Relevant)
+## 5. Time Allocation Strategy
 
 For time-constrained assessments:
 
@@ -91,6 +91,7 @@ Time-managed engagement plan that reduces wasted effort.
 Engagement setup is complete when:
 
 - Scope is confirmed
+- POC and communication methods are defined
 - Documentation framework is prepared
 - Testing constraints are understood
 - Initial targets are organized
