@@ -2,7 +2,7 @@
 
 This phase defines the operational preparation conducted before active enumeration begins.
 
-The objective is to eliminate ambiguity, confirm scope, structure documentation, and establish a disciplined workflow prior to interacting with target systems.
+The objective is to eliminate ambiguity, validate authorization boundaries, structure documentation, and establish a disciplined workflow prior to interacting with target systems.
 
 ---
 
@@ -11,10 +11,11 @@ The objective is to eliminate ambiguity, confirm scope, structure documentation,
 Before any testing activity:
 
 - Confirm authorized IP ranges, domains, and subdomains
-- Identify explicitly excluded systems
+- Identify explicitly excluded systems or network segments
 - Validate testing window and time restrictions
-- Clarify whether credentialed testing is permitted (test credentials if provided)
+- Clarify whether credentialed testing is permitted and validate provided accounts
 - Determine if denial-of-service testing is prohibited
+- Identify third-party or externally hosted assets if applicable
 
 Output:
 A clearly documented and validated scope boundary.
@@ -29,7 +30,8 @@ Establish operational constraints:
 - Social engineering restrictions (if applicable)
 - Authentication testing limits
 - Data handling expectations
-- Reporting timelines
+- Defined communication channels and escalation procedures
+- Reporting deadlines and deliverable format
 
 Output:
 Documented operational boundaries aligned with authorization.
@@ -38,19 +40,16 @@ Documented operational boundaries aligned with authorization.
 
 ## 3. Target Inventory Confirmation
 
-Create an initial target inventory:
+Organize known or client-provided assets:
 
-- IP ranges
-- Servers
-- Identify Production environment location (public or private)
-- Identify Testing evironment location
-- Installed OS
-- Host primary purpose
-- Host primary software
-- Web applications
-- Domain controllers
-- VPN endpoints
-- Cloud assets (if in scope)
+- Client-provided IP ranges and domains
+- Known production vs non-production segmentation
+- Identified server roles (if disclosed)
+- Known web applications
+- Identity or domain infrastructure (if disclosed)
+- VPN or remote access infrastructure
+- Cloud or hybrid assets in scope
+- Domain Controllers
 
 Output:
 Initial asset list to guide structured enumeration.
@@ -59,10 +58,10 @@ Initial asset list to guide structured enumeration.
 
 ## 4. Documentation Structure
 
-Define note-taking structure before testing:
+Define documentation standards prior to testing:
 
-- Directory structure for findings
-- Naming conventions
+- Directory structure for engagement artifacts
+- Naming conventions for findings
 - Evidence storage format
 - Screenshot and artifact organization
 - Reproducibility checklist
@@ -78,11 +77,12 @@ For time-constrained assessments:
 
 - Allocate time per target category
 - Set enumeration time thresholds
-- Define pivot triggers if progress stalls
+- Establish pivot criteria when progress stalls
 - Schedule re-enumeration checkpoints
+- Define escalation plan for technical blockers
 
 Output:
-Time-managed engagement plan that reduces wasted effort.
+Structured time allocation plan that reduces inefficiency and reactive decision-making.
 
 ---
 
@@ -91,8 +91,8 @@ Time-managed engagement plan that reduces wasted effort.
 Engagement setup is complete when:
 
 - Scope is confirmed
-- POC and communication methods are defined
+- Rules of engagement are documented
+- Point-of-contact and communication methods are defined
 - Documentation framework is prepared
-- Testing constraints are understood
-- Initial targets are organized
-- Time strategy is defined
+- Initial target inventory is structured
+- Time strategy is established
