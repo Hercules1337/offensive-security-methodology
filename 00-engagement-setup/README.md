@@ -64,6 +64,7 @@ Define documentation standards prior to testing:
 - Naming conventions for findings
 - Evidence storage format
 - Screenshot and artifact organization
+- Screenshots must show command execution, full output, and system context (hostname, user, privilege level)
 - Reproducibility checklist
 
 Output:
