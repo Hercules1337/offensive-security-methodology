@@ -13,7 +13,7 @@ Before any testing activity:
 - Confirm authorized IP ranges, domains, and subdomains
 - Identify explicitly excluded systems
 - Validate testing window and time restrictions
-- Clarify whether credentialed testing is permitted
+- Clarify whether credentialed testing is permitted (test credentials if provided)
 - Determine if denial-of-service testing is prohibited
 
 Output:
